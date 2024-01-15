@@ -22,7 +22,7 @@ public class prueba {
 
     public prueba() {
     }
-
+    //getters y setters
     public String getPrueba() {
         return prueba;
     }
@@ -38,5 +38,16 @@ public class prueba {
     public void setNumPrueba(int numPrueba) {
         this.numPrueba = numPrueba;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("prueba{");
+        sb.append("prueba=").append(prueba);
+        sb.append(", numPrueba=").append(numPrueba);
+        sb.append('}');
+        return sb.toString();
+    }
+    
     
 }
