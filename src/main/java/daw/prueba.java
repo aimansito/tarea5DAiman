@@ -9,8 +9,8 @@ package daw;
  * @author aiman
  */
 public class prueba {
-    String prueba ;
-    int numPrueba;
+    private String prueba ;
+    private int numPrueba;
     
     //constructor 
 
@@ -21,6 +21,22 @@ public class prueba {
     // constructor por defecto
 
     public prueba() {
+    }
+
+    public String getPrueba() {
+        return prueba;
+    }
+
+    public void setPrueba(String prueba) {
+        this.prueba = prueba;
+    }
+
+    public int getNumPrueba() {
+        return numPrueba;
+    }
+
+    public void setNumPrueba(int numPrueba) {
+        this.numPrueba = numPrueba;
     }
     
 }
